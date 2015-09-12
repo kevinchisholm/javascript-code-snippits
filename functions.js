@@ -19,7 +19,7 @@ function someFuntion(){
 * @param function functionToTest - a function
 * @return boolean
 */
-function isFunction(objectToTest){
+function isObject(objectToTest){
   return (objectToTest && objectToTest instanceof Object) ? true : false;
 }
 
