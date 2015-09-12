@@ -15,6 +15,15 @@ function someFuntion(){
 })();
 
 /**
+* @desc Determines if the passed-in argument is an object
+* @param function functionToTest - a function
+* @return boolean
+*/
+function isFunction(objectToTest){
+  return (objectToTest && objectToTest instanceof Object) ? true : false;
+}
+
+/**
 * @desc Determines if the passed-in argument is a valid function
 * @param function functionToTest - a function
 * @return boolean
