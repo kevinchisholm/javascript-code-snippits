@@ -9,7 +9,7 @@ describe('SERVICE_NAME', function (){
     function runTests(){
         //inject the CustomerSelfServiceApp module
         beforeEach( function() {
-            module('CustomerSelfServiceApp');
+            module('MODULE_NAME');
         });
 
         //inject the required sub-modules
