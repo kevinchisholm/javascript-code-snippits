@@ -1,19 +1,21 @@
-(function(_win, $){
+(function (_win, $) {
 
     'use strict';
 
     /*global window: false */
 
-    var utils = {};
+    var app = {};
 
-    utils.init = function(){
-        //initialize the applcation
+    //initializes the applcation
+    app.init = function(){
+        app.start();
     };
 
-    utils.start = function(){
-        //start the application
+    //starts the application
+    app.start = function () {
+
     };
 
     //initialize the applcation
-    utils.init();
+    app.init();
 })(window, window.jQuery);
