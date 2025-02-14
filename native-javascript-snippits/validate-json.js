@@ -7,6 +7,6 @@ function validateJson(jsonString) {
 	}
 }
 
-const json = '{"foo" : "bar"}';
+const json = `{"foo" : "bar"}`;
 
 validateJson(json); 
